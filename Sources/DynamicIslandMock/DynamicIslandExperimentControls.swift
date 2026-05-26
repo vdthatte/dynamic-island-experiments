@@ -1,8 +1,3 @@
-//
-//  DynamicIslandExperimentControls.swift
-//  bannerexperiments
-//
-
 import SwiftUI
 
 struct DynamicIslandExperimentControls: View {

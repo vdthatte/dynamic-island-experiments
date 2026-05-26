@@ -1,10 +1,5 @@
-//
-//  DynamicIslandMetrics.swift
-//  bannerexperiments
-//
 //  iOS does not expose the physical Dynamic Island frame. These metrics use
 //  known Dynamic Island screen sizes with a geometry-based fallback.
-//
 
 import SwiftUI
 

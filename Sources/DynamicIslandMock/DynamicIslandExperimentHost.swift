@@ -1,19 +1,14 @@
-//
-//  DynamicIslandExperimentHost.swift
-//  bannerexperiments
-//
-//  Drop this folder into another SwiftUI app and render DynamicIslandExperimentHost().
-//
-
 import SwiftUI
 
-struct DynamicIslandExperimentHost: View {
+public struct DynamicIslandExperimentHost: View {
     @Namespace private var islandNamespace
     @State private var activeExperiment: DynamicIslandExperiment = .loading
     @State private var selectedExperiment: DynamicIslandExperiment?
     @State private var transitionID = UUID()
 
-    var body: some View {
+    public init() {}
+
+    public var body: some View {
         GeometryReader { proxy in
             let metrics = DynamicIslandMetrics.forCurrentDevice(in: proxy)
 
@@ -42,7 +37,7 @@ struct DynamicIslandExperimentHost: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
-        .statusBarHidden(
+        .dynamicIslandStatusBarHidden(
             activeExperiment.hidesStatusBar ||
             (selectedExperiment?.hidesStatusBar ?? false)
         )

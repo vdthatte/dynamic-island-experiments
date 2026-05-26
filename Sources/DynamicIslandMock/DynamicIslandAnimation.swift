@@ -1,8 +1,3 @@
-//
-//  DynamicIslandAnimation.swift
-//  bannerexperiments
-//
-
 import SwiftUI
 
 enum DynamicIslandAnimation {

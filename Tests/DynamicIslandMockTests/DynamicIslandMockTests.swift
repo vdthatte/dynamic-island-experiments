@@ -1,15 +1,7 @@
-//
-//  bannerexperimentsTests.swift
-//  bannerexperimentsTests
-//
-//  Created by Vidy Thatte on 5/26/26.
-//
-
+import DynamicIslandMock
 import Testing
-@testable import bannerexperiments
 
-struct bannerexperimentsTests {
-
+struct DynamicIslandMockTests {
     @Test func selectableExperimentsExcludeLoading() {
         #expect(DynamicIslandExperiment.selectableCases == [
             .applyingProgress,
@@ -30,5 +22,4 @@ struct bannerexperimentsTests {
         #expect(DynamicIslandExperiment.errorBanner.hidesStatusBar)
         #expect(DynamicIslandExperiment.successBanner.hidesStatusBar)
     }
-
 }

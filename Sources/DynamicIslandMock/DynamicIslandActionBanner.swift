@@ -1,8 +1,3 @@
-//
-//  DynamicIslandActionBanner.swift
-//  bannerexperiments
-//
-
 import SwiftUI
 
 struct DynamicIslandErrorBanner: View {

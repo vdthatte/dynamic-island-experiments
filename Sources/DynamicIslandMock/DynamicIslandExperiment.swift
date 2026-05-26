@@ -1,29 +1,22 @@
-//
-//  DynamicIslandExperiment.swift
-//  bannerexperiments
-//
-//  Drop this folder into another SwiftUI app to reuse the experiments.
-//
-
 import Foundation
 
-enum DynamicIslandExperiment: Equatable, Identifiable {
+public enum DynamicIslandExperiment: Equatable, Identifiable, Sendable {
     case loading
     case applyingProgress
     case errorBanner
     case successBanner
 
-    static let selectableCases: [Self] = [
+    public static let selectableCases: [Self] = [
         .applyingProgress,
         .errorBanner,
         .successBanner
     ]
 
-    var id: Self {
+    public var id: Self {
         self
     }
 
-    var controlTitle: String {
+    public var controlTitle: String {
         switch self {
         case .loading:
             "Loading"
@@ -36,7 +29,7 @@ enum DynamicIslandExperiment: Equatable, Identifiable {
         }
     }
 
-    var hidesStatusBar: Bool {
+    public var hidesStatusBar: Bool {
         switch self {
         case .loading:
             false

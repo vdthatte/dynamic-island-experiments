@@ -1,8 +1,3 @@
-//
-//  DynamicIslandLoadingCapsule.swift
-//  bannerexperiments
-//
-
 import SwiftUI
 
 struct DynamicIslandLoadingCapsule: View {
