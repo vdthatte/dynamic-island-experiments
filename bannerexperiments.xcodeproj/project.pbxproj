@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		BB00000E2FC630000065288F /* bannerexperimentsWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BB0000032FC630000065288F /* bannerexperimentsWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		AA7311072FC62C0E0065288F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,34 +21,12 @@
 			remoteGlobalIDString = AA7310F62FC62C0D0065288F;
 			remoteInfo = bannerexperiments;
 		};
-		BB00000D2FC630000065288F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA7310EF2FC62C0C0065288F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB0000082FC630000065288F;
-			remoteInfo = bannerexperimentsWidgets;
-		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		BB0000072FC630000065288F /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				BB00000E2FC630000065288F /* bannerexperimentsWidgets.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AA7310F72FC62C0D0065288F /* bannerexperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bannerexperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7311062FC62C0E0065288F /* bannerexperimentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bannerexperimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7311102FC62C0E0065288F /* bannerexperimentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bannerexperimentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB0000032FC630000065288F /* bannerexperimentsWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = bannerexperimentsWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -69,16 +43,6 @@
 		AA7311132FC62C0E0065288F /* bannerexperimentsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = bannerexperimentsUITests;
-			sourceTree = "<group>";
-		};
-		BB0000012FC630000065288F /* Shared */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		BB0000022FC630000065288F /* bannerexperimentsWidgets */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = bannerexperimentsWidgets;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -105,13 +69,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB0000052FC630000065288F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -119,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				AA7310F92FC62C0D0065288F /* bannerexperiments */,
-				BB0000012FC630000065288F /* Shared */,
-				BB0000022FC630000065288F /* bannerexperimentsWidgets */,
 				AA7311092FC62C0E0065288F /* bannerexperimentsTests */,
 				AA7311132FC62C0E0065288F /* bannerexperimentsUITests */,
 				AA7310F82FC62C0D0065288F /* Products */,
@@ -131,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				AA7310F72FC62C0D0065288F /* bannerexperiments.app */,
-				BB0000032FC630000065288F /* bannerexperimentsWidgets.appex */,
 				AA7311062FC62C0E0065288F /* bannerexperimentsTests.xctest */,
 				AA7311102FC62C0E0065288F /* bannerexperimentsUITests.xctest */,
 			);
@@ -148,16 +102,13 @@
 				AA7310F32FC62C0D0065288F /* Sources */,
 				AA7310F42FC62C0D0065288F /* Frameworks */,
 				AA7310F52FC62C0D0065288F /* Resources */,
-				BB0000072FC630000065288F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB00000C2FC630000065288F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				AA7310F92FC62C0D0065288F /* bannerexperiments */,
-				BB0000012FC630000065288F /* Shared */,
 			);
 			name = bannerexperiments;
 			packageProductDependencies = (
@@ -212,29 +163,6 @@
 			productReference = AA7311102FC62C0E0065288F /* bannerexperimentsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		BB0000082FC630000065288F /* bannerexperimentsWidgets */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB0000092FC630000065288F /* Build configuration list for PBXNativeTarget "bannerexperimentsWidgets" */;
-			buildPhases = (
-				BB0000042FC630000065288F /* Sources */,
-				BB0000052FC630000065288F /* Frameworks */,
-				BB0000062FC630000065288F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BB0000012FC630000065288F /* Shared */,
-				BB0000022FC630000065288F /* bannerexperimentsWidgets */,
-			);
-			name = bannerexperimentsWidgets;
-			packageProductDependencies = (
-			);
-			productName = bannerexperimentsWidgets;
-			productReference = BB0000032FC630000065288F /* bannerexperimentsWidgets.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,9 +184,6 @@
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = AA7310F62FC62C0D0065288F;
 					};
-					BB0000082FC630000065288F = {
-						CreatedOnToolsVersion = 26.2;
-					};
 				};
 			};
 			buildConfigurationList = AA7310F22FC62C0C0065288F /* Build configuration list for PBXProject "bannerexperiments" */;
@@ -276,7 +201,6 @@
 			projectRoot = "";
 			targets = (
 				AA7310F62FC62C0D0065288F /* bannerexperiments */,
-				BB0000082FC630000065288F /* bannerexperimentsWidgets */,
 				AA7311052FC62C0E0065288F /* bannerexperimentsTests */,
 				AA73110F2FC62C0E0065288F /* bannerexperimentsUITests */,
 			);
@@ -299,13 +223,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AA73110E2FC62C0E0065288F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB0000062FC630000065288F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,13 +253,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB0000042FC630000065288F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -355,11 +265,6 @@
 			isa = PBXTargetDependency;
 			target = AA7310F62FC62C0D0065288F /* bannerexperiments */;
 			targetProxy = AA7311112FC62C0E0065288F /* PBXContainerItemProxy */;
-		};
-		BB00000C2FC630000065288F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB0000082FC630000065288F /* bannerexperimentsWidgets */;
-			targetProxy = BB00000D2FC630000065288F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -495,7 +400,6 @@
 				DEVELOPMENT_TEAM = 24FC2K35CZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -528,7 +432,6 @@
 				DEVELOPMENT_TEAM = 24FC2K35CZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -635,60 +538,6 @@
 			};
 			name = Release;
 		};
-		BB00000A2FC630000065288F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 24FC2K35CZ;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Config/bannerexperimentsWidgets-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = graam.bannerexperiments.widgets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BB00000B2FC630000065288F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 24FC2K35CZ;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Config/bannerexperimentsWidgets-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = graam.bannerexperiments.widgets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -724,15 +573,6 @@
 			buildConfigurations = (
 				AA7311212FC62C0E0065288F /* Debug */,
 				AA7311222FC62C0E0065288F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB0000092FC630000065288F /* Build configuration list for PBXNativeTarget "bannerexperimentsWidgets" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB00000A2FC630000065288F /* Debug */,
-				BB00000B2FC630000065288F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
